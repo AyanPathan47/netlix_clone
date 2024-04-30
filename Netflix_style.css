@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family:arial;
+}
+.nav{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 700px;
+}
+.nav-panel{
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 200px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.nav-input1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.nav-input1 select{
+    height: 35px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.nav-input1 button{
+    height: 35px;
+    width: 80px;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 4px;
+    background-color: red;
+    border: 1px solid red;
+    margin-right: 170px;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.bold-text{
+    font-size: 3rem;
+    color: white;
+}
+.text{
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-input2{
+   display: flex;
+   justify-content: center;
+}
+.nav-input2 input{
+    height: 55px;
+    width: 355px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.nav-input2 button{
+    height: 55px;
+    width: 205px;
+    color:white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+.divider{
+    background-color: rgba(141, 137, 137, 0.824);
+    border-color:rgba(141, 137, 137, 0.824);
+    height: 8px;
+}
+.box-one{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.box-content1{
+    text-align: center;
+    margin-left: 200px;
+}
+.bold-text1{
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+}
+.text1{
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.media1 video{
+    height: 450px;
+    margin-left: 100px;
+}
+.box-two{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.box-content2{
+    text-align: center;
+    margin-left: 100px;
+}
+.bold-text2{
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+}
+.text2{
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.media2 video{
+    height: 450px;
+    margin-left: 250px;
+}
+.media2 img{
+    height: 400px;
+    margin-left: 250px;
+}
+.footer-box{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box ul{
+    list-style-type: none;
+}
+.links a{
+    text-decoration: underline;
+    color: white;
+}
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        border:border-box;
+        font-family:arial;
+    }
+    .nav{
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-color: grey;
+        background-blend-mode: multiply;
+        height: 500px;
+        width: 100%;
+    }
+    .nav-panel{
+        display: flex;
+        height: 100px;
+        width: 100%;
+    }
+    .logo{
+        height: 70px;
+        width: 170px;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-color: transparent;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .nav-input1{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    
+    }
+    .nav-input1 select{
+        height: 35px;
+        color: white;
+        background-color: rgba(0,0,0,0.6);
+        border: 1px solid whitesmoke;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+    .nav-input1 button{
+        height: 35px;
+        width: 80px;
+        font-size: 0.9rem;
+        color: white;
+        border-radius: 4px;
+        background-color: red;
+        border: 1px solid red;
+        margin-right: 20px; 
+    }
+    .content{
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .bold-text{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .text{
+        font-size: 1rem;
+        color: white;
+    }
+    .nav-input2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-input2 input{
+        height: 45px;
+        width: 200px;
+        border-radius: 4px;
+        border: 1px solid white;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    .nav-input2 button{
+        height: 45px;
+        width: 105px;
+        color:white;
+        background-color: red;
+        border: 1px solid red;
+        border-radius: 4px;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    ::placeholder{
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .divider{
+        background-color: rgba(141, 137, 137, 0.824);
+        border-color:rgba(141, 137, 137, 0.824);
+        height: 4px;
+    }
+    .box-one{
+        height: 500px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .media1 video{
+        height: 15rem;
+        margin-top: 50px;
+    }
+    .box-content1{
+        text-align: left; 
+        margin-top: 2.8rem;
+    }
+    .bold-text1{
+        font-size: 1.5rem;
+        color: white;
+        text-align: left;
+    }
+    .text1{
+        font-size: 1rem;
+        color: white;
+        text-align: left;
+    }
+    .box-two{
+        height: 500px;
+        background-color: black;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-content2{
+        text-align: left;
+    }
+    .bold-text2{
+        font-size: 1.5rem;
+        color: white;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .text2{
+        font-size: 1rem;
+        color: white;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    .media2 video{
+        height: 30vh;
+        margin-left: 150px;
+    }
+    .media2 img{
+        height: 300px;
+        margin-left: 130px;
+    }
+    .footer-box{
+        height: 300px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-box ul{
+        list-style-type: none;
+    }
+    .links a{
+        text-decoration: underline;
+        color: white;
+    }
+  }
+
